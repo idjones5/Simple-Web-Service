@@ -14,7 +14,7 @@ import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.
 
 @RunWith(SpringRunner.class)
 @WebMvcTest(WordServiceController.class)
-public class WordServiceControllerTest {
+public class DefinitionServiceControllerTest {
 
     @Autowired
     private MockMvc mockMvc;

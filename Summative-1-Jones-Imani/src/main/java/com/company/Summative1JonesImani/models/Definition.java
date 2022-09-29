@@ -1,14 +1,14 @@
 package com.company.Summative1JonesImani.models;
 
-public class Word {
+public class Definition {
 
     private String word;
     private String definition;
     private int id;
 
-    public Word() {}
+    public Definition() {}
 
-    public Word(String word, String definition, int id) {
+    public Definition(String word, String definition, int id) {
         this.word = word;
         this.definition = definition;
         this.id = id;
