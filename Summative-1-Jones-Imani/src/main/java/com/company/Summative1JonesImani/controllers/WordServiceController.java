@@ -43,7 +43,7 @@ public class WordServiceController {
         int wordListLength = definitionList.size() - 1; // Word list size
         int randomWordIndex = (int) (Math.random() * wordListLength); // generating a random index in the list
 
-        randomDefinition = definitionList.get(randomWordIndex); // grabbing the random Word
+        randomDefinition = definitionList.get(randomWordIndex); // grabbing the random definition object
 
         return randomDefinition;
     }
